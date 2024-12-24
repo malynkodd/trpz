@@ -24,7 +24,7 @@ namespace Catalog.DAL.EF
         {
             db = new BusBookingContext(options);
         }
-        public IClientRepository Clientss
+        public IClientRepository Clients
         {
             get
             {
@@ -43,7 +43,7 @@ namespace Catalog.DAL.EF
             }
         }
 
-        public IClientRepository Clients => throw new NotImplementedException();
+    
 
         public void Save()
         {
